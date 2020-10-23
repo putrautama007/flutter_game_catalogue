@@ -4,4 +4,5 @@ class RouteStrings{
   String gameListRoute = "/gameListRoute";
   String gameDetailRoute = "/gameDetailRoute";
   String profileRoute = "/profileRoute";
+  String settingsRoute = "/settingsRoute";
 }

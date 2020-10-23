@@ -42,6 +42,10 @@ class AppModule extends MainModule {
           Modular.get<RouteStrings>().profileRoute,
           module: FeatureContributorModule(),
         ),
+        ModularRouter(
+          Modular.get<RouteStrings>().settingsRoute,
+          module: FeatureContributorModule(),
+        ),
       ];
 }
 

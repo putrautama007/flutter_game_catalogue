@@ -39,6 +39,8 @@ dependencies:
     path: module/feature_contributor
   feature_home:
     path: module/feature_home
+  feature_settings:
+    path: module/feature_settings
 
 dev_dependencies:
   flutter_test:
