@@ -16,8 +16,8 @@ dependencies:
     path: ../core
   feature_game:
     path: ../feature_game
-  feature_contributor:
-    path: ../feature_contributor
+  feature_settings:
+    path: ../feature_settings
 
 dev_dependencies:
   flutter_test:

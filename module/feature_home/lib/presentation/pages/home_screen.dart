@@ -1,5 +1,5 @@
-import 'package:feature_contributor/presentation/pages/profile_screen.dart';
 import 'package:feature_game/presentation/pages/game_list_screen.dart';
+import 'package:feature_settings/presentation/pages/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -12,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   List<Widget> _widgets = <Widget>[
     Modular.get<GameListScreen>(),
-    Modular.get<ProfileScreen>(),
+    Modular.get<SettingsScreen>(),
   ];
 
   void _onItemTapped(int index) {
@@ -32,8 +32,8 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person),
-            label: 'Profile',
+            icon: Icon(Icons.settings),
+            label: 'Settings',
           ),
         ],
         currentIndex: _selectedIndex,
