@@ -13,6 +13,8 @@ dependencies:
   flutter_modular: ^2.0.1
   dio: ^3.0.10
   easy_localization: ^2.3.3
+  flutter_screenutil: ^3.1.1
+  flutter_bloc: ^6.0.6
   core:
     path: ../core
   feature_game:

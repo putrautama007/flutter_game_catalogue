@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:feature_contributor/feature_contributor.dart';
 import 'package:feature_game/feature_game.dart';
 import 'package:flutter/material.dart';
@@ -22,7 +23,10 @@ class AppModule extends MainModule {
       ];
 
   @override
-  Widget get bootstrap => MyApp();
+  Widget get bootstrap => EasyLocalization(
+      path: 'assets/languages',
+      supportedLocales: [Locale('en', 'US'), Locale('id', 'ID')],
+      child: MyApp());
 
   @override
   List<ModularRouter> get routers => [
@@ -59,6 +63,9 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       debugShowCheckedModeBanner: false,
+      localizationsDelegates: context.localizationDelegates,
+      supportedLocales: context.supportedLocales,
+      locale: context.locale,
       initialRoute: Modular.get<RouteStrings>().splashScreenRoute,
       navigatorKey: Modular.navigatorKey,
       onGenerateRoute: Modular.generateRoute,

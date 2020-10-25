@@ -1,0 +1,11 @@
+{
+  "home": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "settings": {
+    "settings" : "Settings",
+    "indonesia": "Indonesia",
+    "english" : "English"
+  }
+}

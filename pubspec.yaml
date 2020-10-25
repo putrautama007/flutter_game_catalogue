@@ -32,6 +32,7 @@ dependencies:
   flutter_bloc: ^6.0.6
   equatable: ^1.2.5
   easy_localization: ^2.3.3
+  flutter_screenutil: ^3.1.1
   core:
     path: module/core
   feature_game:
@@ -61,6 +62,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/languages/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

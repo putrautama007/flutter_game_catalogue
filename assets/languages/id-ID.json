@@ -1,0 +1,11 @@
+{
+  "home": {
+    "home": "Beranda",
+    "settings": "Pengaturan"
+  },
+  "settings": {
+    "settings" : "Pengaturan",
+    "indonesia": "Indonesia",
+    "english" : "Inggris"
+  }
+}

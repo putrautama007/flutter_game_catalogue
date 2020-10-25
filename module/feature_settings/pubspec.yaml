@@ -14,6 +14,7 @@ dependencies:
   easy_localization: ^2.3.3
   flutter_bloc: ^6.0.6
   equatable: ^1.2.5
+  flutter_screenutil: ^3.1.1
   core:
     path: ../core
 
